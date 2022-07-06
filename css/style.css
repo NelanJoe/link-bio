@@ -45,6 +45,9 @@ body {
   background-color: black;
   border-radius: 1rem;
 }
+.card__header--subtitle {
+  text-decoration: underline;
+}
 .card__body {
   margin: 0 2rem;
 }
