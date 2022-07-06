@@ -10,7 +10,8 @@
 }
 
 body {
-  background: url("https://images.unsplash.com/photo-1511027748565-a0e907fcece4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1511027748565-a0e907fcece4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -23,8 +24,11 @@ body {
   height: 100%;
 }
 
+
+
 .card {
   text-align: center;
+
   &__header {
     display: flex;
     flex-direction: column;
@@ -38,7 +42,7 @@ body {
       border-radius: 100%;
       object-fit: cover;
       object-position: top;
-      // filter: ;
+      box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
     }
 
     &--title {
@@ -56,13 +60,14 @@ body {
     a {
       width: 100%;
       padding: 8px 40px;
-      backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+
       list-style-type: none;
       text-decoration: none;
       border-radius: 10px;
     }
 
     &--link li {
+      backdrop-filter: blur(10px) saturate(160%) contrast(180%);
       margin-top: 10px;
     }
 
@@ -78,10 +83,10 @@ body {
   }
 
   @media only screen and (max-width: 768px) {
-      .card {
-        &__header {
-          margin-top: 30%;
-        }
+    .card {
+      &__header {
+        margin-top: 30%;
       }
+    }
   }
 }

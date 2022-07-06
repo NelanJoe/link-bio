@@ -37,6 +37,7 @@ body {
   border-radius: 100%;
   object-fit: cover;
   object-position: top;
+  box-shadow: rgba(28, 32, 93, 0.24) 0px 2px 8px 0px;
 }
 .card__header--title {
   margin: 10px;
@@ -51,12 +52,12 @@ body {
 .card__body a {
   width: 100%;
   padding: 8px 40px;
-  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   list-style-type: none;
   text-decoration: none;
   border-radius: 10px;
 }
 .card__body--link li {
+  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   margin-top: 10px;
 }
 .card__body--link a {
