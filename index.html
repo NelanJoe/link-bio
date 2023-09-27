@@ -19,32 +19,38 @@
   </head>
   <body>
     <div id="vanta"></div>
-    <div class="card animated">
-      <div class="card__header">
-        <img class="card__header--img" src="images/avatar.jpg" alt="avatar" />
-        <h2 class="card__header--title">Nelan</h2>
-        <p class="card__header--subtitle">@nelan_17</p>
+    <main>
+      <div class="card animated">
+        <div class="card__header">
+          <img
+            class="card__header--img"
+            src="images/avatar_v2.jpg"
+            alt="avatar"
+          />
+          <h2 class="card__header--title">Nelan</h2>
+          <p class="card__header--subtitle">Hi Guys,.</p>
+        </div>
+        <div class="card__body">
+          <ul class="card__body--link">
+            <li>
+              <a href="https://www.linkedin.com/in/nelan17/"
+                ><i class="fa-brands fa-linkedin"></i>LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/nelan_17/">
+                <i class="fa-brands fa-instagram"></i> Instagram
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/NelanJoe">
+                <i class="fa-brands fa-github"></i>Github
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="card__body">
-        <ul class="card__body--link">
-          <li>
-            <a href="https://www.linkedin.com/in/nelan-66973a128/"
-              ><i class="fa-brands fa-linkedin"></i>LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/nelan_17/">
-              <i class="fa-brands fa-instagram"></i> Instagram
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/NelanJoe">
-              <i class="fa-brands fa-github"></i>Github
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    </main>
     <script>
       VANTA.BIRDS({
         el: "#vanta",
@@ -59,10 +65,8 @@
         scaleMobile: 1.0,
         wingSpan: 50.0,
         separation: 80.0,
-        quantity: 4.0
+        quantity: 4.0,
       });
     </script>
-
-   
   </body>
 </html>

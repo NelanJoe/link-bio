@@ -1,15 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&family=M+PLUS+1+Code&family=Oswald&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "M PLUS 1 Code", sans-serif;
   color: #fff;
 }
 
+:root {
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+
 body {
-  background: url("https://images.unsplash.com/photo-1511027748565-a0e907fcece4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1511027748565-a0e907fcece4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center fixed;
   background-size: cover;
+
+  min-height: 100dvh;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 #vanta {
